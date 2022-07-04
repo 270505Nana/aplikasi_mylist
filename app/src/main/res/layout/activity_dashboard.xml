@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+    android:background="@mipmap/home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:rotationX="-4"
+                android:text="Ahmad Ichsan"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="70dp"
+                android:rotationX="-4"
+                android:text="Happy taking notes sir"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="19dp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:paddingTop="4dp"
+                app:srcCompat="@drawable/profile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="130dp"
+                android:rotationX="-4"
+                android:text="Hi Welcome"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="65dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="200dp"
+                android:rotationX="-4"
+                android:text="To Mylist"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="65dp" />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="515dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:paddingTop="25dp"
+            android:paddingLeft="20dp"
+            android:rowCount="3">
+
+
+            <ImageView
+                android:id="@+id/vitur_mylist"
+                android:layout_width="wrap_content"
+                android:layout_height="132dp"
+                android:paddingTop="4dp"
+                app:srcCompat="@drawable/vitur_mylist" />
+
+            <ImageView
+                android:id="@+id/vitur_addlist"
+                android:layout_width="144dp"
+                android:layout_height="129dp"
+                android:paddingTop="4dp"
+                app:srcCompat="@drawable/vitur_addlist" />
+
+            <ImageView
+                android:id="@+id/vitur_shoplist"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/vitur_shoplist" />
+
+            <ImageView
+                android:id="@+id/vitur_profile"
+                android:layout_width="153dp"
+                android:layout_height="147dp"
+                android:paddingTop="20dp"
+                app:srcCompat="@drawable/vitur_profile" />
+
+
+
+        </GridLayout>
+    </LinearLayout>
+
+
+</ScrollView>
